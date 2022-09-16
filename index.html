@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Lista de Tarefas</h1>
+        <nav class="notificacao">
+            <img src="assets/images/bell 2.svg" alt="sino" class="notificacao-sino">
+            <div class="notificacao-marcador"></div>
+        </nav>
+    </header>
+
+    <form class="formulario">
+        <div class="formulario-bloco">
+            <label for="tarefa">Tarefa</label>
+            <div class="formulario-entrada">
+                <input type="text" id="tarefa" placeholder="Ex.: comprar leite">
+                <img src="assets/images/tasks 1.svg" alt="ícone de uma lista">
+            </div>
+        </div>
+
+        <div class="formulario-bloco">
+            <label for="data">Data</label>
+            <div class="formulario-entrada">
+                <input type="datetime" id="data" placeholder="Ex.: 10/12/2022">
+                <img src="assets/images/calendar-appointment-date 1.svg" alt="ícone de calendário">
+            </div>
+        </div>
+
+        <div class="formulario-botao">
+            <a class="formulario-botao-link">Adicionar</a>
+        </div>
+    </form>
+
+    <div class="bloco">
+        <div class="bloco-selecionar">
+            <input type="checkbox" id="selecionar">
+            <label for="selecionar">Pesquisar sobre React</label>
+        </div>
+        
+        <div class="bloco-tarefa">
+            <p>14/08/2022 às 12h00</p>
+        </div>
+
+        <div class="bloco-apagar">
+            <img src="assets/images/Group.svg" alt="lixeira">
+        </div>
+    </div>
+</body>
+</html>
